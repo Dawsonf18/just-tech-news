@@ -2,7 +2,7 @@ const router = require('express').Router();
 const req = require('express/lib/request');
 const res = require('express/lib/response');
 const { user } = require('../../models');
-const User = require('../../models/user');
+const User = require('../../models/User');
 
 //GET /api/users
 router.get('/', (req, res) => {
